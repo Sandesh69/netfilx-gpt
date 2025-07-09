@@ -10,6 +10,15 @@
 --implement signIn user API
 --created Redux Store with userSlice
 --fetch movies from TMDB
+--BugFix: Sign Up user displayname and profile picture update
+--BugFix: if the user is not logged in redirect to login page and vice versa
+--unsubscribed to the onAuthStateChanged   Callback
+--add hardcoded values to constant page
+--setup TMDB 
+--do a movies now playiong fetch call in browse
+--set up a store for movies
+--Main & Secondary Containers
+--custom hook for now paying movies and movie trailer 
 
 # features to build
 -Login Page
@@ -24,3 +33,11 @@
          --Movie Suggestions
                 --MoviesList *N
 
+ MainContainer
+          --VideoBackground
+          --Videotitle and Desc
+
+          
+ Secondary Container
+          --MovieList*n
+          --Cards*n
