@@ -39,5 +39,8 @@
 
           
  Secondary Container
-          --MovieList*n
-          --Cards*n
+     --MovieList -Popular
+      --MovieCard*n
+    --MovieList -Now Playing
+    --MovieList -Trending
+    --MovieList -Horror
