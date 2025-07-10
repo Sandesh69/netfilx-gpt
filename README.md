@@ -19,6 +19,8 @@
 --set up a store for movies
 --Main & Secondary Containers
 --custom hook for now paying movies and movie trailer 
+--created gpt search bar and created a multilingual feature
+--integrate gpt APIs
 
 # features to build
 -Login Page
