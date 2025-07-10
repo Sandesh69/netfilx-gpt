@@ -6,6 +6,7 @@ const VideoBackground = ({ movieId }) => {
   useMovieTrailer(movieId);
 
   if (!trailer) return;
+  console.log(trailer);
 
   return (
     <div key={movieId} className="w-screen">

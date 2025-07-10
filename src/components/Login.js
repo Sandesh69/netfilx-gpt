@@ -74,8 +74,7 @@ const Login = () => {
       )
         .then((userCredential) => {
           // Signed in
-          const user = userCredential.user;
-
+          //const user = userCredential.user;
           // ...
         })
         .catch((error) => {
@@ -88,14 +87,14 @@ const Login = () => {
   return (
     <div>
       <Header />
-      <div className="absolute">
-        <img src={BG_LOGO} alt="bg-img" />
+      <div className="fixed">
+        <img className="  h-screen object-cover" src={BG_LOGO} alt="bg-img" />
       </div>
       <form
         onSubmit={(e) => {
           e.preventDefault();
         }}
-        className=" w-4/12 absolute p-16 bg-black my-36 mx-auto right-0 left-0 text-white opacity-80 rounded-md"
+        className="w-full md:w-4/12 absolute p-16 bg-black my-36 mx-auto right-0 left-0 text-white opacity-80 rounded-md"
       >
         <h1 className="font-bold text-3xl pb-4">
           {isSignIn ? "Sign In" : "Sign Up"}

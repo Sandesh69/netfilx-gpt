@@ -21,6 +21,8 @@
 --custom hook for now paying movies and movie trailer 
 --created gpt search bar and created a multilingual feature
 --integrate gpt APIs
+--fetched the data from TMDB apis based on  the gpt search
+--made website responsive
 
 # features to build
 -Login Page

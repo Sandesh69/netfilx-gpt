@@ -11,8 +11,7 @@ export const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwYmNmMTJiOTQ3NjZhZTlhOTg2OTc2MTU4NzUxZjJkZSIsIm5iZiI6MTc1MTkxMjIyNC41NjA5OTk5LCJzdWIiOiI2ODZjMGYyMDc4N2I4ZTA4MjllZDVjZmMiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.CYgUu1jgEv5uIshna17A182whRe3yaY5KMedbRVoDQY",
+    Authorization: "Bearer " + process.env.REACT_APP_TMDB_KEY,
   },
 };
 
@@ -24,4 +23,8 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "spanish", name: "Spanish" },
 ];
 
-//remove things
+//remove the key value or delete it before pushing
+export const GPT_SECRET_KEY = process.env.REACT_APP_OPENAI_KEY;
+
+export const DEFAULT_MOVIE_POSTER =
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_3eDodAmFjDPaM94OgKXswFEk9lGiClkR8A&s";
