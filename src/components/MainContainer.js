@@ -8,7 +8,7 @@ const MainContainer = () => {
   if (movies === null) return;
   const mainMovie = movies[Math.floor(Math.random() * 21)];
   const { overview, original_title, id } = mainMovie;
-
+  if (!mainMovie) return;
   return (
     <div>
       <VideoTitle title={original_title} overview={overview} />

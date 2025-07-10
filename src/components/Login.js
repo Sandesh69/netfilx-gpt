@@ -7,7 +7,7 @@ import {
   updateProfile,
 } from "firebase/auth";
 import { auth } from "../utils/firebase";
-import { addUser } from "../utils/userSlice";
+import { addUser } from "../utils/store/userSlice";
 import { useDispatch } from "react-redux";
 import { BG_LOGO, USER_AVATAR } from "../utils/constants";
 
